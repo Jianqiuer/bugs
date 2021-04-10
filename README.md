@@ -1,7 +1,7 @@
 # bugs
 
 
-1. Unsupported gpu architecture 'compute_86'
+## 1. Unsupported gpu architecture 'compute_86'
 
 looking for thie shell and match the highest vision of  yout CUDA VISION and TORCH_CUDA_ARCH_LIST
 
@@ -30,5 +30,5 @@ case ${CUDA_VERSION} in
         ;;
 esac
 
-""" then """
+###  then 
 export TORCH_CUDA_ARCH_LIST="8.0"
